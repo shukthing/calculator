@@ -1,0 +1,33 @@
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+*.dat
+
+*.bacpac
+*ncrunch*
+
+# Build results
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+[Bb]in/
+[Oo]bj/
+
+packages/
+cspacksource/
+Code/ScS.GeoIp/DBFiles/City.mmdb
+Code/ScS.GeoIp/DBFiles/Domain.mmdb
+Code/ScS.GeoIp/DBFiles/ISP.mmdb
+Code/ScS.GeoIp/DBFiles/
+/Code/New Deployment/Scripts/Logs
+Code/.vs/
+Code/DeploymentTC/ScS.GeoIp.zip
+Code/DeploymentTC/ScS.DeviceDetection.zip
+Code/DeploymentTC/ScS.CeS.Discovery.zip
+Code/DeploymentTC/ScS.CeS.TenantInformation.zip
+Code/ScS.CeS.QA.Performance/output
+/.vs
+/Code/ScS.CeS.TenantInformation/logs/
