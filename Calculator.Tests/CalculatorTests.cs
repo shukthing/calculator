@@ -1,3 +1,4 @@
+using Calculator.Tests.Models;
 using NSubstitute;
 using System.Collections.Generic;
 using Xunit;
@@ -30,7 +31,7 @@ namespace Calculator.Tests
 
             calc.Calculate('-', 5, 3);
 
-            logger.Received(1).Log("No matching operation found.");
+            logger.Received(1).Log(LogResponse.NoMatchFound);
             // TODO: Assert that ILogger.Log called with "No matching operation found."
         }
 
@@ -41,7 +42,7 @@ namespace Calculator.Tests
 
             calc.Calculate('+', 5, 3);
 
-            logger.Received(1).Log("No matching operation found.");
+            logger.Received(1).Log(LogResponse.NoMatchFound);
             // TODO: Assert that ILogger.Log called with "No matching operation found."
         }
     }
